@@ -11,6 +11,25 @@ body{
   scroll-behavior: smooth;
 }
 
+@layer{
+  .bento-heading{
+    @apply  text-white text-2xl font-light
+  }
+  .bento-description{
+    @apply  text-white opacity-50 font-light leading-6 tracking-wider text-sm w-full
+  }
+  .bento-description2{
+    @apply  text-white  opacity-50 font-light leading-6 tracking-wider text-sm md:w-1/2
+  }
+  .bento-container1{
+    @apply p-6 flex w-full h-full  flex-col justify-end items-start
+  }
+  .bento-container2{
+    @apply p-6 flex w-full h-full  flex-col justify-start items-start
+  }
+}
+
+
 
 @font-face {
   font-family: "Neue Haas Grotesk Display Pro";
@@ -153,4 +172,11 @@ body{
 }
 .footer{
   border-top: 0.5px solid #b4c1ff53;
+}
+.bento{
+
+  border: 1px solid #2A2B3A;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
 }
