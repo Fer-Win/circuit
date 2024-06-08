@@ -14,7 +14,7 @@ const BentoGrid = () => {
 
       <div className="flex w-full h-[300vh] md:h-[95vh]  md:px-6  items-center justify-center">
         <div className="grid h-full w-full grid-cols-12 grid-rows-12 gap-3">
-          <div className="bento bento1 col-span-12 md:col-span-3  row-span-2 md:row-span-8 relative flex ">
+          <div className="bento bento1 col-span-12 md:col-span-3  row-span-2 md:row-span-8 relative flex overflow-hidden ">
             <Image
               alt="bg"
               src={"/bento/bento1.png"}
@@ -29,6 +29,13 @@ const BentoGrid = () => {
                 vibrant hackathons and test your coding prowess.
               </p>
             </div>
+            <Image
+                  alt="skills"
+                  src={"/bento/Challenge.svg"}
+                   width={800} height={800}
+                  objectFit="fill"
+                  className="absolute  bottom-32 md:bottom-32 md:right-0  md:scale-100 "
+                />
           </div>
           <div className="bento bento1 col-span-12 md:col-span-6 row-span-2 md:row-span-4 overflow-hidden">
             <Image
@@ -71,6 +78,13 @@ const BentoGrid = () => {
                 career guidance.
               </p>
             </div>
+            <Image
+                  alt="skills"
+                  src={"/bento/Career.svg"}
+                   width={400} height={400}
+                  objectFit="fill"
+                  className="absolute right-0 -top-24 scale-90 md:-top-10 md:bottom-0 md:right-0  md:scale-65 "
+                />
           </div>
           <div className="bento flex justify-center items-center bentologo col-span-12 md:col-span-6 row-span-2 md:row-span-4">
             <Image
@@ -78,7 +92,7 @@ const BentoGrid = () => {
               src={"/bento/bentologo.png"}
               layout="fill"
               objectFit="cover"
-              className="absolute -z-10 opacity-15"
+              className="absolute -z-10 opacity-15 "
             ></Image>
             {/* <Image
               alt="bg"
@@ -87,12 +101,12 @@ const BentoGrid = () => {
               objectFit="cover"
               className="absolute  opacity-15"
             ></Image> */}
-            <div className="scale-150">
+            <div className="scale-[2.5]">
               <Logo />
             </div>
           </div>
 
-          <div className="bento bento2 col-span-12 md:col-span-6 row-span-2 md:row-span-5">
+          <div className="bento bento2 col-span-12 md:col-span-6 row-span-2 md:row-span-5 overflow-hidden">
             <Image
               alt="bg"
               src={"/bento/bento2.png"}
@@ -107,8 +121,16 @@ const BentoGrid = () => {
                 at Circuit.
               </p>
             </div>
+            <Image
+                  alt="skills"
+                  src={"/bento/Community.svg"}
+                   width={600} height={400}
+                  objectFit="fill"
+                  className="absolute right-0 bottom-10 scale-[2] md:scale-100 md:-bottom-4 md:right-0  "
+                />
+
           </div>
-          <div className="bento bento1 col-span-12 md:col-span-6 row-span-2 md:row-span-5">
+          <div className="bento bento1 overflow-hidden col-span-12 md:col-span-6 row-span-2 md:row-span-5">
             <Image
               alt="bg"
               src={"/bento/bento1.png"}
@@ -123,6 +145,14 @@ const BentoGrid = () => {
                 to spark your creativity.
               </p>
             </div>
+            <Image
+                  alt="skills"
+                  src={"/bento/Fuel.svg"}
+                   width={800} height={800}
+                  objectFit="fill"
+                 style={{mixBlendMode: 'lighten'}}
+                  className="absolute   bottom-0 md:-bottom-8 md:right-10 scale-[1.5] md:scale-90 "
+                />
           </div>
         </div>
       </div>
