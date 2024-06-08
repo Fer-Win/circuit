@@ -169,6 +169,7 @@ body{
 .newsletter{
   border-radius: 17px;
   background: linear-gradient(180deg, #3351EE 0%, rgba(1, 3, 20, 0.77) 120.38%);
+  box-shadow: 0px 0px 300px 10px rgba(48, 77, 224, 0.074);
 }
 .footer{
   border-top: 0.5px solid #b4c1ff53;
@@ -179,4 +180,10 @@ body{
   border-radius: 8px;
   display: flex;
   position: relative;
+}
+.joinbutton{
+color: #263CB5;
+text-align: center;
+border-radius: 15554px;
+box-shadow: 0px 0px 58.5px 0px rgba(38, 60, 181, 0.62), 0px 0px 0px 3px #CED6FF;
 }
