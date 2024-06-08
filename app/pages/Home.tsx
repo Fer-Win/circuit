@@ -9,7 +9,6 @@ import NewsLetter from '../organisms/NewsLetter'
 const Home = () => {
   return (
     <div className='text-white'>
-     
       <HeaderSection/>
       <BentoGrid/>
       <NewsLetter/>

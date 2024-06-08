@@ -138,3 +138,12 @@ body{
   font-weight: 100;
   font-style: italic;
 }
+
+.styled-button {
+  box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.31);
+}
+
+.header {
+  border-radius: 14px;
+  background: linear-gradient(180deg, #010314 -32.67%, #3351ee 138.52%);
+}
