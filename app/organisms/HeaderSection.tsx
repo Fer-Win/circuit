@@ -4,7 +4,7 @@ import HeaderSVG from "../atoms/HeaderSVG";
 
 const HeaderSection = () => {
   return (
-    <div id="#home" className=" header mb-8 md:mb-32 w-full h-[85vh] relative overflow-hidden py-14">
+    <div id="#home" className=" header mb-8 md:mb-32 w-full h-[85vh] relative  overflow-hidden py-14">
       <div className="flex justify-center flex-col items-center gap-5 md:gap-3">
         <div className="text-white text-4xl md:text-7xl tracking-[-1.54px] mx-auto text-center font-light px-4 md:px-0">
           The Dev Community that doesn’t suck.

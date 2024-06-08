@@ -6,12 +6,14 @@ import Footer from '../organisms/Footer'
 import NewsLetter from '../organisms/NewsLetter'
 import JoinCircuit from '../organisms/JoinCircuit'
 import Testimonials from '../organisms/Testimonials'
+import About from '../organisms/About'
 
 
 const Home = () => {
   return (
     <div className='text-white'>
       <HeaderSection/>
+      <About/>
       <BentoGrid/>
       <Testimonials/>
       <NewsLetter/>
