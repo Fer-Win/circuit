@@ -5,7 +5,8 @@ const AboutCard = ({title,description,src}:{title:string,description:string,src:
   return (
     <div className='p-5 md:p-8 flex justify-between aboutCard items-start flex-col  md:w-[35vw] md:min-h-[30vh] rounded-xl h-[25vh] md:h-[30vh]'>
         <div>
-            <Image src={src} alt='svg icon' width={100} height={100}></Image>
+            <Image src={src} alt='svg icon' width={45} height={65}  
+             className='w-12 md:w-16'></Image>
         </div>
         <div className='flex flex-col gap-2'>
             <div className='text-sm font-light text-[rgb(59,126,255)]'>Key features</div>
