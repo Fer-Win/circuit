@@ -9,7 +9,7 @@ const About = () => {
         <div className='flex flex-col gap-3 justify-center items-center'>
         <SectionTitle 
         title={'About Circuit'} />
-        <div className='text-center font-light text-[#ffffffdd] text-2xl'> Circuit is a global community of developers committed to innovation, collaboration, and continuous learning. Our mission is to bring together developers from all walks of life to share knowledge, work on exciting projects, and push the boundaries of technology.</div>
+        <div className='text-center font-light text-[#ffffffb3] md:text-2xl'> Circuit is a global community of developers committed to innovation, collaboration, and continuous learning. Our mission is to bring together developers from all walks of life to share knowledge, work on exciting projects, and push the boundaries of technology.</div>
         </div>
        <AboutSection/>
     </div>
