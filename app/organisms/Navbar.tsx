@@ -38,7 +38,7 @@ const Navbar = () => {
                 })
             }
             </div>
-            <div className='scale-[.70] hidden md:block'><StyledButton buttonText={'Join Now'}></StyledButton></div>
+            {/* <div className='scale-[.70] hidden md:block'><StyledButton buttonText={'Join Now'}></StyledButton></div> */}
             <div className='block md:hidden'><HiMiniBars3BottomRight size={25} color='white'/></div>
     </div>
   )

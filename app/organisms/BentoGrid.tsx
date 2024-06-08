@@ -6,7 +6,7 @@ import Logo from "../atoms/Logo";
 
 const BentoGrid = () => {
   return (
-    <div className="flex justify-center flex-col  items-center gap-6 md:gap-12 py-6">
+    <div className="flex mb-32 justify-center flex-col  items-center gap-6 md:gap-12  py-6">
       <SectionHeading
         title={"Why join circuit?"}
         subtitle={"Where developers are their own rulers"}
