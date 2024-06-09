@@ -112,7 +112,7 @@ const Testimonials = () => {
   return (
     <div className='flex mb-8 md:my-32 flex-col justify-start items-center gap-16 h-[80vh] mt-16 md:mt-0  md:h-fit'>
       <SectionHeading title={'Developers love it here'} subtitle={'Hear what our fellow developers say about Circuit'} />
-      <div className=' w-full h-[40vw] flex flex-col gap-16'>
+      <div className=' w-full h-[70vh] flex flex-col gap-16'>
       
         <TestimonialCarousel testimonials={testimonials1} direction={'left'}/>
         <TestimonialCarousel testimonials={testimonials2} direction={'right'}/>

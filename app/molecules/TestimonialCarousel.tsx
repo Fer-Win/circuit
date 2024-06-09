@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const TestimonialCarousel = ({testimonials,direction}:{testimonials:TestimonialProps[],direction:any}) => {
   return (
-    <div className='relative h-[30vh] overflow-hidden'>
+    <div className='relative h-[80vh] md:h-[30vh] overflow-hidden'>
         <Marquee autoFill={true} gradient={true} gradientColor={'#010314'} speed={70} direction={direction}>
             {testimonials.map((testimonial, index) => (
                 <Testimonial key={index} content={testimonial.content} name={testimonial.name} job={testimonial.job} />
